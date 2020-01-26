@@ -4,4 +4,4 @@ PART 1
 
 1. Color라는 enum 클래스 선언해놓고 책처럼 GREEN.equals(apple.getColor()); 어떻게 이렇게 쓸 수 있는지??
 2. 책에 보니 main method의 파라미터가 String[] args 가 아니고 String...args인데  둘이 완벽하게 똑같은건가??
-3. 
+3. int[] numbers = {1,2,3,4,5}; 처럼 List<Integer> numbers = {1, 2, 3, 4, 5};는 선언못하나요

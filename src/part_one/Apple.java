@@ -22,10 +22,6 @@ public class Apple {
 	public void setColor(Color color) {
 		this.color = color;
 	}
-	@Override
-	public String toString() {
-		return "이 사과의 무게는 " + weight + "이고, 색깔은 " + color + "이다!!";
-	}
 	
 	
 	
