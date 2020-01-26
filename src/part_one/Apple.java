@@ -2,10 +2,10 @@ package part_one;
 
 public class Apple {
 	public int weight;
-	public String color;
+	public Color color;
 	
 	
-	public Apple(int weight, String color) {
+	public Apple(int weight, Color color) {
 		super();
 		this.weight = weight;
 		this.color = color;
@@ -16,11 +16,15 @@ public class Apple {
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
-	public String getColor() {
+	public Color getColor() {
 		return color;
 	}
-	public void setColor(String color) {
+	public void setColor(Color color) {
 		this.color = color;
+	}
+	@Override
+	public String toString() {
+		return "이 사과의 무게는 " + weight + "이고, 색깔은 " + color + "이다!!";
 	}
 	
 	
