@@ -1,4 +1,4 @@
-package chapter3;
+package chapter2;
 
 public interface ApplePredicate {
 	public boolean test(Apple apple);

@@ -1,4 +1,4 @@
-package chapter3;
+package chapter2;
 
 public enum Color {
 	RED, YELLOW, GREEN, BLUE

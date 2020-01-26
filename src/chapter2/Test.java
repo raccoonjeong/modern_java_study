@@ -1,4 +1,4 @@
-package chapter3;
+package chapter2;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

@@ -1,4 +1,4 @@
-package chapter3;
+package chapter2;
 
 public class MeaningOfThis {
 	// 이해하기 어려운 고전 자바 문제
