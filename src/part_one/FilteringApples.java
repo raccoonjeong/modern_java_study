@@ -20,10 +20,6 @@ public class FilteringApples {
 		List<Apple> inventory = Arrays.asList(new Apple(80, Color.GREEN),
 											  new Apple(155, Color.GREEN),
 											  new Apple(120, Color.RED));
-		List<Apple> redApples = filterApples(inventory, new ApplePredicate() {
-			public boolean test(Apple apple) {
-				return Color.RED.equals(apple.getColor());
-			}
-		}); // 익명클래스를 사용하여 즉석에서 구현했으나 너무 장황하다.
+		List<Apple> result = filterApples(inventory, (Apple apple) -> Color.RED.equals(apple.getColor()));
 	}
 }
