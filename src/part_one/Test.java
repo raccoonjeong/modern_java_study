@@ -31,7 +31,9 @@ public class Test {
 		Future<String> threadName2 = executorService.submit(() -> Thread.currentThread().getName());
 		
 		// 이벤트 대응
-		// Java FX????
+		// Java FX???? import 안됨..
+		
+		/* GUI 이벤트 처리 end */
 		
 	}
 }
