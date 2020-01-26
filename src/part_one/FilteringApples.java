@@ -2,6 +2,7 @@ package part_one;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class FilteringApples {
@@ -20,11 +21,19 @@ public class FilteringApples {
 		List<Apple> inventory = Arrays.asList(new Apple(80, Color.GREEN),
 											  new Apple(155, Color.GREEN),
 											  new Apple(120, Color.RED));
-		List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
-		List<Apple> redApples = filter(inventory, (Apple apple) -> Color.RED.equals(apple.getColor()));
-		List<Integer> evenNumbers = filter(numbers, (Integer i) -> i % 2 == 0);
+		System.out.println("정렬 전 순서를 봅시다");
+		for(Apple apple : inventory) {
+			System.out.println(apple);
+		}
+		inventory.sort(new Comparator<Apple>() {
+			public int compare(Apple a1, Apple a2) {
+				return a1.getWeight().compareTo(a2.getWeight());
+			}
+		});
 		
-		System.out.println(redApples);
-		System.out.println(evenNumbers);
+		System.out.println("정렬 후 순서를 봅시다");
+		for(Apple apple : inventory) {
+			System.out.println(apple);
+		}
 	}
 }
