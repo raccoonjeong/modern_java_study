@@ -7,11 +7,12 @@ import java.util.function.ToIntFunction;
 
 public class Quiz {
 	public static void main(String[] args) {
-		
+		// 퀴즈 3-7. 인수가 세개인 생성자 참조 사용?
+		TriFunction<Integer, String, String, Human> humanFactory = Human::new; 
 	}
 	
 	public void testMethod() {
-		// 다음 람다 표현식와 일치하는 메서드 참조를 구현하라
+		// 퀴즈 3-6. 다음 람다 표현식와 일치하는 메서드 참조를 구현하라
 		// 문1
 		ToIntFunction<String> stringToInt = (String s) -> Integer.parseInt(s);
 		// 답1

@@ -1,6 +1,8 @@
 package chapter2;
 
-public class Apple {
+import chapter3.Fruit;
+
+public class Apple extends Fruit{
 	public Integer weight;
 	public Color color;
 	
@@ -10,6 +12,13 @@ public class Apple {
 		this.weight = weight;
 		this.color = color;
 	}
+	public Apple(int weight) {
+		this.weight = weight;
+	}
+	
+	public Apple() {
+	}
+	
 	public Integer getWeight() {
 		return weight;
 	}
