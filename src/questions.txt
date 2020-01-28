@@ -1,4 +1,4 @@
-공부하며 생각난 의문 모음
+﻿공부하며 생각난 의문 모음
 
 PART 1
 
@@ -14,3 +14,6 @@ PART 1
    iii) default    : 같은 패키지(폴더)에 있는 객체들만 허용
    iv) private    : 현재 객체 내에서만 허용
 7. 예외처리할때  throws Exception 말고  throws IOException 등으로 세분화하는 이유
+
+8. 115페이지 코드 컴파일에러나는데.. chapter3.Test6
+9. 왜 static 메소드 안에서는 this를 못쓰나요?
