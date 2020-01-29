@@ -17,3 +17,5 @@ PART 1
 
 8. 115페이지 코드 컴파일에러나는데.. chapter3.Test6
 9. 왜 static 메소드 안에서는 this를 못쓰나요?
+
+10. Comparator의 comparing가 이미 정적메소드인데 왜 import static java.util.Comparator.comparing 이렇게 하나요
