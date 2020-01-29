@@ -19,3 +19,4 @@ PART 1
 9. 왜 static 메소드 안에서는 this를 못쓰나요?
 
 10. Comparator의 comparing가 이미 정적메소드인데 왜 import static java.util.Comparator.comparing 이렇게 하나요
+11. 챕터3에 나온 java.util.function패키지의 함수형 인터페이스들은 실제 개발에 많이 쓰이나요?
