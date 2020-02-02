@@ -1,6 +1,6 @@
 ﻿공부하며 생각난 의문 모음
 
-PART 1
+Study 1회차 : Chapter2 ~ Chapter3
 
 1. Color라는 enum 클래스 선언해놓고 책처럼 GREEN.equals(apple.getColor()); 어떻게 이렇게 쓸 수 있는지??
 2. 책에 보니 main method의 파라미터가 String[] args 가 아니고 String...args인데  둘이 완벽하게 똑같은건가??
@@ -20,3 +20,10 @@ PART 1
 
 10. Comparator의 comparing가 이미 정적메소드인데 왜 import static java.util.Comparator.comparing 이렇게 하나요
 11. 챕터3에 나온 java.util.function패키지의 함수형 인터페이스들은 실제 개발에 많이 쓰이나요?
+
+
+-----------------------
+
+Study 2회차 : Chapter4 ~ Chapter5
+
+1. 퀴즈 4-1번 String의 리스트가 아니라 Dish의 리스트로 나오지 않나? String 리스트로 나오려면 map(Dish::getName) 해줘야지않나?
