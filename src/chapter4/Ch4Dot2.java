@@ -4,7 +4,7 @@ import static java.util.stream.Collectors.toList;
 
 import java.util.List;
 
-public class Ch4Dat2 {
+public class Ch4Dot2 {
 	public static void main(String[] args) {
 		test(Dish.menu);	
 	}

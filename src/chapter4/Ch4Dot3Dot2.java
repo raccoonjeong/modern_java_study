@@ -6,7 +6,7 @@ import java.util.List;
 
 import static java.util.stream.Collectors.toList;
 
-public class Ch4Dat3Dat2 {
+public class Ch4Dot3Dot2 {
 	// 외부 반복 : for-each 등 사용자가 직접 요소 반복 
 	// 내부 반복 : 스트림 라이브러리가 알아서 처리하고 어딘가 저장해줌
 	

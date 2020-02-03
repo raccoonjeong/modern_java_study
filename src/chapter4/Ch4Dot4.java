@@ -3,7 +3,7 @@ package chapter4;
 import java.util.List;
 import static java.util.stream.Collectors.toList;
 
-public class Ch4Dat4 {
+public class Ch4Dot4 {
 
 	public static void main(String[] args) {
 		showIntermediateOperation(Dish.menu);

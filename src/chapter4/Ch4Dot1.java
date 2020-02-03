@@ -9,7 +9,7 @@ import java.util.List;
 import static java.util.Comparator.comparing;
 import static java.util.stream.Collectors.toList;
 
-public class Ch4Dat1 {
+public class Ch4Dot1 {
 	public static void main(String[] args) {
 		
 		System.out.println(originCode(Dish.menu));

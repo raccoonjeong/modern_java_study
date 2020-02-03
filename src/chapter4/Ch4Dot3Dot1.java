@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Ch4Dat3Dat1 {
+public class Ch4Dot3Dot1 {
 	public static void main(String[] args) {
 		// 스트림은 한번만 탐색 가능. 심지어 데이터소스가 I/O라면 반복사용할 수 없으므로 새로운 스트림을 만들 수 없음.
 		List<String> title = Arrays.asList("Java8", "In", "Action");
