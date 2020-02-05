@@ -8,8 +8,7 @@ import static java.util.stream.Collectors.toList;
 
 public class Quiz {
 	public static void main(String[] args) {
-		quiz5Dash2Dash2();
-		quiz5Dash2Dash3();
+		quiz5Dash3();
 	}
 	public static void quiz5Dash1() {
 		List<Dish> specialMenu = Arrays.asList(
@@ -67,5 +66,16 @@ public class Quiz {
 							 			.map(k -> { System.out.println(i + ".." + k); return new int[] {i, k};}))
 					 .collect(toList());
 		System.out.println(pairs);
+	}
+	public static void quiz5Dash3() {
+		// map, reduce로 스트림의 요리갯수 구하기.
+		List<Dish> menu = Dish.menu;
+		menu.size(); //?
+		
+		// int count = 0;
+		// 틀림 : menu.stream().map(d -> 1).reduce(0, (a,b) -> count + b);
+		int count = menu.stream().map(d -> 1).reduce(0, (a,b) -> a + b);
+		
+		System.out.println(count);
 	}
 }
