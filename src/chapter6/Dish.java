@@ -36,12 +36,15 @@ public class Dish {
     return type;
   }
 
-  @Override
-  public String toString() {
-    return name;
-  }
 
-  public enum Type {
+  @Override
+public String toString() {
+	// return "Dish [name=" + name + ", vegetarian=" + vegetarian + ", calories=" + calories + ", type=" + type + "]";
+	  return name;
+}
+
+
+public enum Type {
     MEAT,
     FISH,
     OTHER
