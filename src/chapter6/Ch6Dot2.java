@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collector;
 
 public class Ch6Dot2 {
 	public static void main(String[] args) {
@@ -45,6 +46,18 @@ public class Ch6Dot2 {
 		 Optional<Dish> mostCalorieDish2 = 
 				 menu.stream().collect(reducing(
 						 (d1, d2) -> d1.getCalories() > d2.getCalories()? d1 : d2));
+		 
+		 int totalCalories3 = 
+				 menu.stream().collect(reducing(0, Dish::getCalories, Integer::sum));
+		 
+		 int totalCalories4 = 
+				 menu.stream().map(Dish::getCalories).reduce(Integer::sum).get();
+		 
+		 int totalCalories5 = 
+				 menu.stream().mapToInt(Dish::getCalories).sum();
 	
+	}
+	public static <T> Collector<T, ?, Long> counting() {
+		return reducing(0L, e -> 1L, Long::sum);
 	}
 }
